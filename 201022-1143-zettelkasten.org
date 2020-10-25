@@ -1,0 +1,25 @@
+#+TITLE: Zettelkasten(상자방법)을 이용한 효과적인 공부방법
+#+HUGO_SECTION: post/java
+#+HUGO_BASE_DIR:~/blog
+#+toc: headlines 
+
+
+* 생각을 기록하면 이렇게 된다 
+최고의 모드는 orgmode이다. 
+
+하지만 최대한 다른 모드와 기능들은 배제하고 내가 직접 작성한 것들만 사용하고 싶다.
+그러면 역시 orgmode와 이것을 조합한게 최고인듯? 
+[[file:201022-1143-zettelkasten.org]]
+
+* 핵심 원리 
+
+- 언제든지 찾을 수 있는 unique-id system
+- backlink를 통한 생각의 정리와 조합
+- 카드에는 하나의 아이디어만 있어야 함 (원자성)
+- 각각의 카드를 다른 아이디어와 링크시키기
+
+* Reference
+- [[http://news.khan.co.kr/kh_news/khan_art_view.html?artid=202010222100005&code=910402&nv=stand&utm_source=naver&utm_medium=newsstand&utm_campaign=top&C][뉴스 기사]]
+- [[https://dpitt.me/blog/2020/03/zettelkasten/][dpitt.me Using Emacs's org-mode As Your Zettelkasten]]
+- [[https://blog.jethro.dev/posts/zettelkasten_with_org/][Org-mode Workflow Part 3: Zettelkasten with Org-mode · Jethro Kuan]]
+  

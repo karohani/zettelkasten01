@@ -1,0 +1,3 @@
+#TITLE 이렇게 생각을 적어둔다 
+
+[[file:2020-10-22-2331 refactoring.org]]
