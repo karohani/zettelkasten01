@@ -1,0 +1,31 @@
+#+TITLE: hugo를 사용한 정적 블로깅
+#+HUGO_SECTION: post
+#+HUGO_BASE_DIR:~/blog
+
+* 설치 
+
+  #+begin_src sh
+brew install hugo
+  #+end_src
+
+  
+* 디렉토리 구조 만들기
+
+  - hugo new site {blog_name}
+  - theme추가 
+    - git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+    - git submodule add -b master https://github.com/karohani/karohani.github.com public
+
+* google에서 사이트가 검색 되도록 하기 
+
+** Google Search Console에 SiteMap등록 
+
+   - [[https://www.google.com/webmasters ][google webmaster]]
+   - 파일을 다운 받은 뒤에 static폴더 안에 넣고 검증 버튼을 누르면 완료된다. 
+
+
+* OX-hugo를 이용해서 실제 데이터와 바인딩하기 
+
+** 주의점 파일 이름이 한글이면 제대로 출력되지 않는다.
+
+   - TITLE은 한글로 하더라도 파일이름은 한글로 해서는 안된다 ㅠㅠ 젠장
